@@ -1,0 +1,11 @@
+{
+  "name": "vue_demo",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "Canvas.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "tony bai",
+  "license": "MIT"
+}

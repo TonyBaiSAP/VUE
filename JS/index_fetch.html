@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+    <body>
+        <script>
+            window.onload=function() {
+                fetch("http://example.com/movies.json")
+                .then(function(response) {
+                    debugger;
+                    return response.json();
+                })
+                .then(function(myJson) {
+                    console.log(myJson);
+                })
+            }
+        </script>
+    </body>
+</html>
